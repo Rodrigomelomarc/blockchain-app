@@ -37,6 +37,7 @@
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "@typescript-eslint/camelcase": "off",
+      "@typescript-eslint/no-explicit-any": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
       "import/no-duplicates": "off",
@@ -44,6 +45,7 @@
       "no-param-reassign": "off",
       "camelcase": "off",
       "no-shadow":"off",
+      "no-new": "off",
       "no-use-before-define": "off",
       "@typescript-eslint/explicit-function-return-type": [
         "error",

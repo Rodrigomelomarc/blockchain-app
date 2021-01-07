@@ -18,6 +18,10 @@ export default createGlobalStyle`
   }
 
   body {
+    overflow: auto;
+    color: #463535;
+    background: linear-gradient(360deg, rgba(150, 139, 223, 0) 29%, rgba(150, 139, 223, 0.25) 93.34%) no-repeat;
+    background-size: contain;
     -webkit-font-smoothing: antialiased !important;
     font-family: Roboto, sans-serif;
   }
